@@ -14,11 +14,6 @@ via Homebrew (Developer ID signed + notarized).
 > Notarization (used here) is an automated malware scan, not Store review, and
 > permits these capabilities.
 
-## Documentation
-
-- **[End-user guide](docs/END_USER_GUIDE.md)** — install, permissions, daily use, troubleshooting
-- **[Open-source publishing guide](docs/OPEN_SOURCE_PUBLISHING.md)** — push to GitHub, CI, signed releases, Homebrew
-
 ## Running it
 
 Spacestrator is a **menu-bar app**, not a terminal program — so by design it has no
