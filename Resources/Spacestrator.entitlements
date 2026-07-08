@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!--
+      NOT sandboxed. Sandboxing is incompatible with private SkyLight calls,
+      cross-app Accessibility automation, and launching arbitrary apps — which is
+      exactly why this ships via Developer ID + notarization, not the App Store.
+
+      Hardened Runtime IS enabled (required for notarization). The only entitlement
+      needed is permission to send Apple Events to other apps.
+    -->
+    <key>com.apple.security.automation.apple-events</key>
+    <true/>
+</dict>
+</plist>

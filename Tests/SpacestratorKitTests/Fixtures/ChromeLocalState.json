@@ -1,0 +1,21 @@
+{
+  "profile": {
+    "info_cache": {
+      "Default": {
+        "name": "Person 1",
+        "gaia_name": "Alice Example",
+        "user_name": "alice@example.com"
+      },
+      "Profile 3": {
+        "name": "work profile",
+        "gaia_name": "Alice Work",
+        "user_name": "alice@work.com"
+      },
+      "Profile 7": {
+        "name": "Side Project",
+        "gaia_name": "",
+        "user_name": "side@example.com"
+      }
+    }
+  }
+}

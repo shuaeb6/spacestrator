@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleName</key>
+    <string>Spacestrator</string>
+    <key>CFBundleDisplayName</key>
+    <string>Spacestrator</string>
+    <key>CFBundleExecutable</key>
+    <string>Spacestrator</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.spacestrator</string>
+    <key>CFBundleShortVersionString</key>
+    <string>__VERSION__</string>
+    <key>CFBundleVersion</key>
+    <string>__VERSION__</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+
+    <!-- Menu-bar-only agent: no Dock icon. -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- Automation prompt copy (Apple Events to System Events / Chrome / Finder). -->
+    <key>NSAppleEventsUsageDescription</key>
+    <string>Spacestrator controls other apps to arrange your project workspace and dismiss IDE "Open Project" dialogs.</string>
+
+    <key>NSHumanReadableCopyright</key>
+    <string>MIT License</string>
+</dict>
+</plist>

@@ -1,0 +1,27 @@
+{
+  "name": "Project 1",
+  "space": "new",
+  "apps": [
+    {
+      "name": "Android Studio",
+      "type": "app",
+      "path": "/Users/you/Documents/flutterprojects/example/app",
+      "newWindow": true
+    },
+    {
+      "name": "Cursor",
+      "type": "app",
+      "path": "/Users/you/Documents/flutterprojects/example/app"
+    },
+    {
+      "name": "Finder",
+      "type": "folder",
+      "path": "/Users/you/Documents/flutterprojects/example/app"
+    },
+    {
+      "name": "Google Chrome",
+      "type": "chrome",
+      "profile": "work profile"
+    }
+  ]
+}
